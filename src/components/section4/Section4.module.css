@@ -1,0 +1,36 @@
+.container-section4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.content-section4{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.title{
+    color: var(--white-color);
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text{
+    color: var(--white-color);
+    font-size: 16px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+@media (min-width:1024px){
+    .title{
+        font-size: 50px;
+    }
+
+    .text{
+        font-size: 30px;
+    }
+}

@@ -1,11 +1,13 @@
 import styles from "./MidCard.module.css"
-
+import author from "../../assets/img/author.png";
+import bLeft from "../../assets/img/bLeft.png";
+import yRight from "../../assets/img/yRight.png";
 
 function MidCard(){
     return (
         <div className={styles["card-container"]}>
             <div className={styles["card-content"]}>
-                <img className={styles["img-author"]} src="src/assets/img/author.png" alt="author" />
+                <img className={styles["img-author"]} src={author} alt="author" />
 
                 <div className={styles["area-text"]}>
                     <h1 className={styles["title-card"]}> 
@@ -18,8 +20,8 @@ function MidCard(){
                         Holly Davidson
                     </span>
                     <div className={styles["arrow"]}>
-                        <img src="src/assets/img/bLeft.png" alt="left arrow" />
-                        <img src="src/assets/img/yRight.png" alt="right arrow" />
+                        <img src={bLeft} alt="left arrow" />
+                        <img src={yRight} alt="right arrow" />
                     </div>
                 </div>
             </div>

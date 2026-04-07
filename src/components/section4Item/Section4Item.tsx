@@ -1,5 +1,6 @@
 import type { Section4ItemProps } from "./Section4Item.type";
 import styles from "./Section4Item.module.css"
+import add from "../../assets/img/add.png";
 
 function Section4Item({
     text
@@ -7,7 +8,7 @@ function Section4Item({
     return(
         <div className={styles.container}>
             {text}
-            <img src="src/assets/img/add.png" alt="add" />
+            <img src={add} alt="add" />
         </div>
     )
 }

@@ -4,11 +4,14 @@ import Button from "../button/Button"
 import { HERO_DATA } from "./Hero.data"
 import HeroItem from "../heroItem/HeroItem"
 
+import hero_img from "../../assets/img/hero.png";
+
+
 function Hero(){
     return(
         <section className={styles["container-hero"]}>
             <div className={styles["content-hero"]}>
-                <img className= {styles["img-hero"]}src="src/assets/img/hero.png" alt="hero image" />
+                <img className= {styles["img-hero"]}src={hero_img} alt="hero image" />
                 
                 <div className={styles["text-hero"]}>
                     <p className={styles["hero-subtitle"]}>

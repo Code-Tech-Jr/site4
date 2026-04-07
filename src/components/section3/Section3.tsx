@@ -2,12 +2,14 @@ import styles from "./Section3.module.css"
 import Button from "../button/Button"
 import { SECTION3_DATA } from "./Section3.data"
 import HeroItem from "../heroItem/HeroItem"
+import section3_image from "../../assets/img/section3.png";
+
 function Section3() {
     if (!SECTION3_DATA) return <p>Erro: Dados não encontrados</p>;
     return (
         <section className={styles["container-section3"]}>
             <div className={styles["content-section3"]}>
-                <img  className={styles["img-section3"]} src="src/assets/img/section3.png" alt="" />
+                <img  className={styles["img-section3"]} src={section3_image} alt="" />
 
                 <div className={styles["text-area"]}>
                     <h1 className={styles["title-section3"]}>

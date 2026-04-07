@@ -1,12 +1,13 @@
 import type { HeroItemProps } from "./HeroItem.type";
 import styles from "./HeroItem.module.css"
+import check_circle from "../../assets/img/check_circle.png";
 
 function HeroItem({
     text
 } : HeroItemProps) {
     return(
         <div className={styles.container}>
-            <img src="src/assets/img/check_circle.png" alt="check" />
+            <img src={check_circle} alt="check" />
             {text}
         </div>
     )

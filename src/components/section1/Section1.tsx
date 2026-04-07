@@ -1,5 +1,6 @@
 import styles from "./Section1.module.css"
 import Button from "../button/Button"
+import section1_image from "../../assets/img/section1.png";
 
 function Section1() {
     return (
@@ -8,7 +9,7 @@ function Section1() {
                 
                 <img 
                     className={styles["img-section1"]} 
-                    src="src/assets/img/section1.png" 
+                    src={section1_image} 
                     alt="imagem" 
                 />
 
